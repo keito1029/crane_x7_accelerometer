@@ -28,11 +28,11 @@ cd ~/catkin_ws && catkin_make && source ~/catkin_ws/devel/setup.bash
 
 ## 立ち上げるもの
 
-まず先程のROSbridge
+①まず先程のROSbridge
 ```
 roslaunch ros_smartphone_imu rosbridge.launch
 ```
-続いてcrane_x7
+②続いてcrane_x7
 ```
 roslaunch crane_x7_gazebo crane_x7_with_table.launch
 ```
@@ -41,7 +41,7 @@ roslaunch crane_x7_gazebo crane_x7_with_table.launch
 sudo chmod 777 /dev/ttyUSB0
 roslaunch crane_x7_bringup demo.launch fake_execution:=false
 ```
-そして「ngrok」の３つが立ち上がっていて、スマホの画面で「接続済み」と出ていることを確認して下さい。
+③そして「ngrok」の３つが立ち上がっていて、スマホの画面で「接続済み」と出ていることを確認して下さい。
 
 # プログラムの実行
 実行ファイルのあるディレクトリに移動します。
