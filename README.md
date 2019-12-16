@@ -2,10 +2,12 @@
 スマホの傾きに対応してcrane_x7が動くというパッケージです。
 
 ## ROS Bridgeのインストール
-今回は他の方のパッケージを使用させてもらいました。[https://github.com/AtsushiSaito/ros_smartphone_imu](https://github.com/AtsushiSaito/ros_smartphone_imu)にアクセスし、手順に従ってROS Bridgeのインストール等を行います。これによりスマホの加速度センサ等の値をPCに送ることができます。
+今回は他の方のパッケージを使用させてもらいました。
+[https://github.com/AtsushiSaito/ros_smartphone_imu](https://github.com/AtsushiSaito/ros_smartphone_imu)にアクセスし、手順に従ってROS Bridgeのインストール等を行います。これによりスマホの加速度センサ等の値をPCに送ることができます。
 
 ## ngrokのインストール
 ngrokのインストールは下記URLの手順に従ってお願いします。
+
 [https://qiita.com/RayDoe/items/8a68f40d165819b82463](https://qiita.com/RayDoe/items/8a68f40d165819b82463)
 
 iOSの方はSafariでは使用できないので、AppStoreにてgooglechromeをインストールし、そこから[https://atsushisaito.github.io/ros_smartphone_imu/](https://atsushisaito.github.io/ros_smartphone_imu/)にアクセスします。
