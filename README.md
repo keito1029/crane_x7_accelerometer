@@ -3,7 +3,7 @@
 
 ## ROS Bridgeのインストール
 今回は他の方のパッケージを使用させてもらいました。
-[https://github.com/AtsushiSaito/ros_smartphone_imu](https://github.com/AtsushiSaito/ros_smartphone_imu)にアクセスし、手順に従ってROS Bridgeのインストール等を行います。これによりスマホの加速度センサ等の値をPCに送ることができます。
+[https://github.com/AtsushiSaito/ros_smartphone_imu](https://github.com/AtsushiSaito/ros_smartphone_imu)にアクセスし、手順に従ってROS Bridgeのインストール等を行います。これによりスマホの加速度センサ等の値をPCに送ることができます。ngrokのインストールのところまで来たら、一旦このREADMEにあるngrokのインストールの項をお願いします。
 
 ## ngrokのインストール
 ngrokのインストールは下記URLの手順に従ってお願いします。
